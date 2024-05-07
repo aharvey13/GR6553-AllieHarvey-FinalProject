@@ -3,8 +3,10 @@
 Welcome to my Final Project!
 
 Here you will find data and scripts relating to different parameters, surface analysis, SPC outlooks, and radar data
+- Each has a separate folder (excluding radar data/scan png/gif)
 
-######################################################################################## How to Pull Data ########################################################################################################
+#How to Pull Data: 
+
 Acquiring Model Data:
 - Since the model data is too big to be put in separately, here is how to pull it:
 - First, I went online and searched "AWS HRRR data".
@@ -27,9 +29,15 @@ Acquiring SPC Data:
 - Under archive convective outlooks, put the dates of when you want to start and end the data
 - Then download the time and product you need (I used .geojson in my code)
 
-######################################################################################## Python Script Credit #######################################################################################################
-Surface Analysis: Metpy
-SPC Convective Analysis: Metpy
-Radar: Code given in class
-Sounding: Combination of simple and advanced sounding from Metpy
-Parameters: Materials/code given in class
+##Python Script Credit:
+
+- Surface Analysis: Metpy
+- SPC Convective Analysis: Metpy
+- Radar: Code given in class
+- Sounding: Combination of simple and advanced sounding from Metpy
+- Parameters: Materials/code given in class
+
+###Breaking Down the Data:
+
+- Each Python script under the Python Script folder has detailed comments (either from me or Metpy) on how to go through each script.
+- Some comments include reasonings for changes and extra details needed to understand the code
